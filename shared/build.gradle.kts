@@ -2,7 +2,7 @@ plugins {
     kotlin("multiplatform")
     kotlin("native.cocoapods")
     id("com.android.library")
-    kotlin("plugin.serialization")  version "1.6.21"
+    kotlin("plugin.serialization")
     id("com.squareup.sqldelight")
     id("org.jlleitschuh.gradle.ktlint")
 }
@@ -95,10 +95,10 @@ kotlin {
 }
 
 android {
-    compileSdk = 32
+    compileSdk = 33
     sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
     defaultConfig {
         minSdk = 28
-        targetSdk = 32
+        targetSdk = 33
     }
 }

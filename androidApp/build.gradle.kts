@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    compileSdk = 32
+    compileSdk = 33
     defaultConfig {
         applicationId = "com.example.kmmtemplate.android"
         minSdk = 28
-        targetSdk = 32
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
     }
@@ -30,7 +30,7 @@ dependencies {
 
     // Lifecycle
     implementation(AndroidX.core.ktx)
-    implementation(AndroidX.lifecycle.runtimeKtx)
+    implementation(AndroidX.lifecycle.runtime.ktx)
 
     // Compose
     implementation(AndroidX.constraintLayout.compose)
